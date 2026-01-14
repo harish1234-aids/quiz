@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        Quiz practice
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz">
+        <h1> Quiz Question</h1>
+        <div id="question">
+            <p>question text</p>
+        </div>
+        <div id="button">
+            <button class="option" onclick="check(0)"></button>
+            <button class="option" onclick="check(1)"></button>
+            <button class="option" onclick="check(2)"></button>
+            <button class="option" onclick="check(3)"></button>
+        </div>
+        <p id="score">score:0</p>
+        <button id="next-btn" onclick="nextquestion()">next</button>
+    </div>
+    <script src="script.js"></script>
+</body>
